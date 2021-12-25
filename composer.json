@@ -2,6 +2,12 @@
     "name": "gallo-admin/php-noframework-api-controller-demo",
     "description": "PHP project to handle http requests without using any framework",
     "type": "project",
+    "authors": [
+        {
+            "name": "Ramon Gallo",
+            "email": "ramong1145@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "GalloAdmin\\PhpNoframeworkApiControllerDemo\\": "src/"
