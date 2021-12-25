@@ -1,0 +1,11 @@
+{
+    "name": "gallo-admin/php-noframework-api-controller-demo",
+    "description": "PHP project to handle http requests without using any framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "GalloAdmin\\PhpNoframeworkApiControllerDemo\\": "src/"
+        }
+    },
+    "require": {}
+}
