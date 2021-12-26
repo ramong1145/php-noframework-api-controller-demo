@@ -49,7 +49,20 @@ class Request
             $method
         ]);
 
-        $response->send();
+        try
+        {
+            if($response instanceof Response)
+            {
+                $response->send();
+            }else
+            {
+                throw new \Exception("Error on processing the request");
+            }
+        }catch(\Exception $e)
+        {
+            echo "Details {$e->getMessage()}";
+        }
+
     }
 }
 
